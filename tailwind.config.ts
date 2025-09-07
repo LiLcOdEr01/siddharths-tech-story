@@ -57,6 +57,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        'tech-blue': 'hsl(var(--tech-blue))',
+        'tech-purple': 'hsl(var(--tech-purple))',
+        'tech-cyan': 'hsl(var(--tech-cyan))',
+        'success': 'hsl(var(--success))',
+        'warning': 'hsl(var(--warning))',
       },
       borderRadius: {
         lg: "var(--radius)",
