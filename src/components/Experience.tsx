@@ -25,7 +25,7 @@ const Experience = () => {
       title: "Linux System Administrator",
       company: "BharatMistri",
       location: "Navi Mumbai, India", 
-      duration: "May 2023 - Oct 2022",
+      duration: "May 2022 - Oct 2022",
       type: "Full-time",
       description: [
         "Administered Linux servers including user management, file system maintenance, and monitoring",
