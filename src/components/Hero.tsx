@@ -32,10 +32,12 @@ const Hero = () => {
             <Mail className="mr-2 h-5 w-5" />
             Get In Touch
           </Button>
-          <Button variant="outline" size="lg" className="border-border hover:bg-secondary font-semibold px-8 py-3">
+          
+          <a href="https://drive.google.com/file/d/1HWFDjCmGJU1r_6NLYxvwk-OH-Aubm_oa/view?usp=sharing"><Button variant="outline" size="lg" className="border-border hover:bg-secondary font-semibold px-8 py-3">
             <Download className="mr-2 h-5 w-5" />
             Download Resume
           </Button>
+          </a>
         </div>
 
         {/* Social Links */}
