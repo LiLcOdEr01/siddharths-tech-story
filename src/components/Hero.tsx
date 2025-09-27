@@ -28,10 +28,12 @@ const Hero = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button size="lg" className="bg-gradient-to-r from-tech-blue to-tech-purple hover:from-tech-purple hover:to-tech-blue text-white font-semibold px-8 py-3 shadow-glow transition-all duration-300">
+          <a href="#send-a-message">
+            <Button size="lg" className="bg-gradient-to-r from-tech-blue to-tech-purple hover:from-tech-purple hover:to-tech-blue text-white font-semibold px-8 py-3 shadow-glow transition-all duration-300">
             <Mail className="mr-2 h-5 w-5" />
             Get In Touch
           </Button>
+          </a>
           
           <a target="_blank" href="https://drive.google.com/file/d/1HWFDjCmGJU1r_6NLYxvwk-OH-Aubm_oa/view?usp=sharing"><Button variant="outline" size="lg" className="border-border hover:bg-secondary font-semibold px-8 py-3">
             <Download className="mr-2 h-5 w-5" />

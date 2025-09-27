@@ -101,7 +101,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <Card className="bg-card border-border shadow-card">
+          <Card className="bg-card border-border shadow-card" id="send-a-message">
             <CardHeader>
               <CardTitle className="text-2xl text-foreground">Send a Message</CardTitle>
             </CardHeader>
