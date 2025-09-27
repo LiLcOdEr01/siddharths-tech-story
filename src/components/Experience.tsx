@@ -23,9 +23,9 @@ const Experience = () => {
     },
     {
       title: "Linux System Administrator",
-      company: "Cloud XP (Jio Pvt Ltd)",
+      company: "BharatMistri",
       location: "Navi Mumbai, India", 
-      duration: "Feb 2023 - Aug 2023",
+      duration: "May 2023 - Oct 2022",
       type: "Full-time",
       description: [
         "Administered Linux servers including user management, file system maintenance, and monitoring",
@@ -38,21 +38,7 @@ const Experience = () => {
       ],
       skills: ["Linux", "Ansible", "KVM", "Shell Scripting", "YUM", "System Monitoring", "Incident Management"]
     },
-    {
-      title: "Graduate Engineer Trainee",
-      company: "Jio Pvt Ltd",
-      location: "Navi Mumbai, India", 
-      duration: "Nov 2022 - Feb 2023",
-      type: "Full-time",
-      description: [
-        "Proficiently addressed and resolved technical inquiries, demonstrating strong problem-solving abilities",
-        "Collaborated closely with the product team to analyze, enhance, and identify gaps within product user stories",
-        "Contributed to feature improvements, positively impacting product quality and performance",
-        "Actively participated in the development and implementation of feature enhancements",
-        "Completed multiple DevOps courses to strengthen technical foundation"
-      ],
-      skills: ["Problem Solving", "Product Analysis", "Feature Development", "Team Collaboration", "DevOps Learning"]
-    }
+
   ];
 
   return (
