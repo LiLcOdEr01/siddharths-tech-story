@@ -5,53 +5,53 @@ import { GraduationCap, Award, Calendar, MapPin } from "lucide-react";
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "Indian Institute of Technology (IIT)",
-      location: "Delhi, India",
-      duration: "2017 - 2021",
-      grade: "CGPA: 8.2/10",
-      description: "Specialized in computer systems, algorithms, and software engineering. Active member of the Linux User Group and DevOps Club.",
-      coursework: ["Operating Systems", "Computer Networks", "Database Systems", "Software Engineering", "System Design", "Cloud Computing"]
+      degree: "Bachelor's in Electronics and Communication Engineering",
+      institution: "Rajiv Gandhi Proudyogiki Vishwavidyalaya",
+      location: "Madhya Pradesh, India",
+      duration: "Aug 2018 - May 2022",
+      grade: "Engineering Graduate",
+      description: "Specialized in electronics, communication systems, and digital technologies. Built strong foundation in technical problem-solving and system design.",
+      coursework: ["Digital Electronics", "Communication Systems", "Microprocessors", "Signal Processing", "Network Theory", "Control Systems"]
     },
     {
-      degree: "Higher Secondary Education (Science)",
-      institution: "Delhi Public School",
-      location: "New Delhi, India",
-      duration: "2015 - 2017",
-      grade: "92.4%",
-      description: "Focused on Mathematics, Physics, and Computer Science. School captain and head of the computer club.",
+      degree: "Higher Secondary Education",
+      institution: "Kendriya Vidyalaya Sangathan",
+      location: "India",
+      duration: "April 2017 - April 2018",
+      grade: "Higher Secondary",
+      description: "Focused on Science stream with emphasis on Mathematics, Physics, and Chemistry. Strong academic foundation for engineering studies.",
       coursework: ["Mathematics", "Physics", "Chemistry", "Computer Science", "English"]
     }
   ];
 
   const certifications = [
     {
-      name: "AWS Certified Solutions Architect - Associate",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      credentialId: "AWS-SAA-001234",
-      icon: "🏆"
+      name: "DevOps Professional Courses",
+      issuer: "Multiple Platforms",
+      date: "2022-2024",
+      credentialId: "Continuous Learning",
+      icon: "📚"
     },
     {
-      name: "Certified Kubernetes Administrator (CKA)",
-      issuer: "Cloud Native Computing Foundation",
-      date: "2022",
-      credentialId: "CKA-2022-001234",
+      name: "Linux System Administration",
+      issuer: "Professional Experience",
+      date: "2023",
+      credentialId: "Jio Pvt Ltd Certified",
+      icon: "🐧"
+    },
+    {
+      name: "Kubernetes & Container Orchestration",
+      issuer: "Professional Experience",
+      date: "2023-2024",
+      credentialId: "Production Experience",
       icon: "⚙️"
     },
     {
-      name: "HashiCorp Certified: Terraform Associate",
-      issuer: "HashiCorp",
-      date: "2022",
-      credentialId: "HCTA-2022-001234",
-      icon: "🛠️"
-    },
-    {
-      name: "Red Hat Certified System Administrator (RHCSA)",
-      issuer: "Red Hat",
-      date: "2021",
-      credentialId: "RHCSA-2021-001234",
-      icon: "🐧"
+      name: "CI/CD Pipeline Implementation",
+      issuer: "Professional Experience",
+      date: "2023-2024",
+      credentialId: "Jenkins & Git Expert",
+      icon: "🚀"
     }
   ];
 

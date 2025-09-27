@@ -6,33 +6,52 @@ const Experience = () => {
   const experiences = [
     {
       title: "DevOps Engineer",
-      company: "TechCorp Solutions",
-      location: "Bangalore, India",
-      duration: "2022 - Present (2 years)",
+      company: "NextGen Ops (Jio Pvt Ltd)",
+      location: "Navi Mumbai, India",
+      duration: "Aug 2023 - Present",
       type: "Full-time",
       description: [
-        "Designed and implemented CI/CD pipelines using Jenkins and GitLab CI, reducing deployment time by 60%",
-        "Managed containerized applications using Docker and Kubernetes across development and production environments",
-        "Automated infrastructure provisioning using Terraform and Ansible, supporting 50+ microservices",
-        "Implemented monitoring solutions with Prometheus, Grafana, and ELK stack for 99.9% uptime",
-        "Collaborated with development teams to optimize application performance and scalability"
+        "Designed and implemented CI/CD pipelines using Git, Jenkins, and Kubernetes, reducing deployment time by 40%",
+        "Managed source code repositories with Git/GitHub/Azure, including branching and merging strategies",
+        "Orchestrated Kubernetes clusters, deployed pods, managed jobs, and optimized infrastructure",
+        "Automated monitoring and alerts using Bash scripting for Kubernetes pods and server resources",
+        "Integrated and maintained JFrog Artifactory registry for container image management",
+        "Configured Grafana dashboards for real-time infrastructure and application monitoring",
+        "Mentored team members and collaborated with cross-functional teams on DevOps practices"
       ],
-      skills: ["Docker", "Kubernetes", "Jenkins", "Terraform", "AWS", "Monitoring"]
+      skills: ["Kubernetes", "Jenkins", "Git", "Docker", "JFrog Artifactory", "Grafana", "Bash", "Azure DevOps"]
     },
     {
       title: "Linux System Administrator",
-      company: "DataFlow Systems",
-      location: "Delhi, India", 
-      duration: "2021 - 2022 (1 year)",
+      company: "Cloud XP (Jio Pvt Ltd)",
+      location: "Navi Mumbai, India", 
+      duration: "Feb 2023 - Aug 2023",
       type: "Full-time",
       description: [
-        "Administered 100+ Linux servers (CentOS, Ubuntu) ensuring 99.8% uptime across production environments",
-        "Implemented automated backup solutions and disaster recovery procedures, reducing recovery time by 40%",
-        "Managed user access controls, security patches, and system updates following security best practices",
-        "Optimized server performance through resource monitoring and capacity planning",
-        "Provided 24/7 on-call support for critical system issues and incident response"
+        "Administered Linux servers including user management, file system maintenance, and monitoring",
+        "Performed system performance tuning and troubleshooting for CPU, memory, and swap issues",
+        "Configured and maintained YUM repositories and installed dependencies for applications and databases",
+        "Created and migrated virtual machines using KVM with optimized resource allocation",
+        "Automated server configuration using Ansible across Prod/Dev/Test/UAT environments, reducing manual time by 30%",
+        "Performed daily monitoring of alarms, KPIs, logs, and system integrity",
+        "Supported incident management by leading P1/P2 issue resolution bridge calls"
       ],
-      skills: ["Linux", "Shell Scripting", "System Administration", "Security", "Backup Solutions"]
+      skills: ["Linux", "Ansible", "KVM", "Shell Scripting", "YUM", "System Monitoring", "Incident Management"]
+    },
+    {
+      title: "Graduate Engineer Trainee",
+      company: "Jio Pvt Ltd",
+      location: "Navi Mumbai, India", 
+      duration: "Nov 2022 - Feb 2023",
+      type: "Full-time",
+      description: [
+        "Proficiently addressed and resolved technical inquiries, demonstrating strong problem-solving abilities",
+        "Collaborated closely with the product team to analyze, enhance, and identify gaps within product user stories",
+        "Contributed to feature improvements, positively impacting product quality and performance",
+        "Actively participated in the development and implementation of feature enhancements",
+        "Completed multiple DevOps courses to strengthen technical foundation"
+      ],
+      skills: ["Problem Solving", "Product Analysis", "Feature Development", "Team Collaboration", "DevOps Learning"]
     }
   ];
 

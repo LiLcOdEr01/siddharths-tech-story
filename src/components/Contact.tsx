@@ -9,19 +9,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "siddharth.singh@example.com",
-      href: "mailto:siddharth.singh@example.com"
+      value: "lilcoder01@gmail.com",
+      href: "mailto:lilcoder01@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210"
+      value: "+91 9321962591",
+      href: "tel:+919321962591"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Bangalore, India",
+      value: "Airoli, Navi Mumbai, Maharashtra",
       href: "#"
     },
     {

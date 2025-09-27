@@ -6,51 +6,51 @@ import { Github, ExternalLink, Server, Cloud, Shield, Code, Database } from "luc
 const Projects = () => {
   const projects = [
     {
-      title: "Multi-Cloud Infrastructure Automation",
-      description: "Developed a comprehensive Infrastructure as Code solution using Terraform to provision and manage resources across AWS, Azure, and GCP. Implemented automated scaling, backup strategies, and cost optimization.",
-      icon: Cloud,
-      technologies: ["Terraform", "AWS", "Azure", "GCP", "Python", "GitHub Actions"],
-      highlights: ["Reduced provisioning time by 80%", "Automated cross-cloud deployments", "Cost optimization saved $50k annually"],
-      github: "#",
-      demo: "#",
-      featured: true
-    },
-    {
-      title: "Kubernetes Monitoring & Logging Platform",
-      description: "Built a comprehensive monitoring and logging solution for Kubernetes clusters using Prometheus, Grafana, and ELK stack. Includes custom dashboards, alerting, and log aggregation for microservices.",
-      icon: Server,
-      technologies: ["Kubernetes", "Prometheus", "Grafana", "Elasticsearch", "Kibana", "Fluentd"],
-      highlights: ["Real-time cluster monitoring", "Custom alerting rules", "Centralized logging for 100+ pods"],
-      github: "#",
-      demo: "#",
-      featured: false
-    },
-    {
-      title: "CI/CD Pipeline Orchestration",
-      description: "Designed and implemented a robust CI/CD pipeline supporting multiple programming languages and deployment targets. Features automated testing, security scanning, and progressive deployment strategies.",
+      title: "CI/CD Pipeline Implementation at Jio",
+      description: "Designed and implemented fully automated CI/CD pipelines using Git, Jenkins, and Kubernetes, reducing deployment time by 40% and enhancing application reliability through self-healing clusters.",
       icon: Code,
-      technologies: ["Jenkins", "GitLab CI", "Docker", "SonarQube", "Nexus", "Helm"],
-      highlights: ["Zero-downtime deployments", "Automated quality gates", "Multi-environment pipeline"],
-      github: "#",
-      demo: "#",
-      featured: false
-    },
-    {
-      title: "Security Compliance Automation",
-      description: "Created automated security compliance checking and remediation system for cloud infrastructure. Implements CIS benchmarks, vulnerability scanning, and compliance reporting.",
-      icon: Shield,
-      technologies: ["Python", "Ansible", "AWS Config", "OpenSCAP", "Nessus", "Slack API"],
-      highlights: ["Automated compliance checks", "Real-time security alerts", "99% compliance score achieved"],
+      technologies: ["Jenkins", "Git", "Kubernetes", "Docker", "Azure DevOps"],
+      highlights: ["Reduced deployment time by 40%", "Enhanced application reliability", "Streamlined Git workflows (branching, tagging, merging)"],
       github: "#",
       demo: "#",
       featured: true
     },
     {
-      title: "Database Backup & Disaster Recovery",
-      description: "Implemented automated backup and disaster recovery solution for critical databases. Features cross-region replication, point-in-time recovery, and automated failover mechanisms.",
+      title: "Container Registry Management with JFrog",
+      description: "Integrated and maintained JFrog Artifactory registry for container image management, improving release cycles and significantly reducing build times for development teams.",
       icon: Database,
-      technologies: ["PostgreSQL", "MySQL", "AWS RDS", "Ansible", "Bash", "Cron"],
-      highlights: ["99.9% data integrity", "15-minute RTO achieved", "Automated disaster recovery testing"],
+      technologies: ["JFrog Artifactory", "Docker", "Kubernetes", "Container Management"],
+      highlights: ["Improved release cycles significantly", "Reduced build time", "Centralized container image management"],
+      github: "#",
+      demo: "#",
+      featured: false
+    },
+    {
+      title: "Grafana Monitoring Dashboard Implementation",
+      description: "Configured comprehensive Grafana dashboards for real-time infrastructure and application monitoring, delivering real-time visibility into system health and reducing MTTR during incidents.",
+      icon: Server,
+      technologies: ["Grafana", "Prometheus", "Linux Monitoring", "Alerting"],
+      highlights: ["Real-time system health visibility", "Reduced MTTR during incidents", "Proactive monitoring and alerting"],
+      github: "#",
+      demo: "#",
+      featured: false
+    },
+    {
+      title: "Ansible Automation for Server Configuration",
+      description: "Automated server configuration using Ansible across Prod/Dev/Test/UAT environments, reducing manual configuration time by 30% and ensuring consistency across environments.",
+      icon: Shield,
+      technologies: ["Ansible", "Linux", "YAML", "Environment Management"],
+      highlights: ["30% reduction in manual configuration time", "Consistent environment setup", "Automated multi-environment deployments"],
+      github: "#",
+      demo: "#",
+      featured: true
+    },
+    {
+      title: "KVM Virtualization & Migration",
+      description: "Successfully migrated multiple production workloads to KVM-based virtualized environments with minimal downtime, optimizing resource allocation and improving system performance.",
+      icon: Cloud,
+      technologies: ["KVM", "Linux", "Virtualization", "Resource Management"],
+      highlights: ["Minimal downtime during migration", "Optimized resource allocation", "Improved system performance"],
       github: "#",
       demo: "#",
       featured: false

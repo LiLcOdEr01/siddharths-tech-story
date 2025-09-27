@@ -14,64 +14,63 @@ import {
 const Skills = () => {
   const skillCategories = [
     {
-      title: "DevOps & Automation",
+      title: "Operating Systems",
       icon: Server,
       skills: [
-        { name: "Docker & Containers", level: 90 },
-        { name: "Kubernetes", level: 85 },
-        { name: "Jenkins/GitLab CI", level: 88 },
-        { name: "Terraform", level: 82 },
-        { name: "Ansible", level: 80 }
+        { name: "Linux (RHEL, CentOS, Ubuntu)", level: 95 },
+        { name: "System Administration", level: 90 },
+        { name: "Performance Tuning", level: 85 },
+        { name: "KVM Virtualization", level: 80 }
       ]
     },
     {
-      title: "Cloud Platforms",
-      icon: Cloud,
-      skills: [
-        { name: "Amazon Web Services", level: 85 },
-        { name: "Microsoft Azure", level: 75 },
-        { name: "Google Cloud Platform", level: 70 },
-        { name: "Digital Ocean", level: 80 }
-      ]
-    },
-    {
-      title: "Programming & Scripting",
+      title: "Configuration Management & Automation",
       icon: Code,
       skills: [
-        { name: "Python", level: 85 },
-        { name: "Bash/Shell Scripting", level: 90 },
-        { name: "Go", level: 70 },
-        { name: "YAML/JSON", level: 95 }
+        { name: "Ansible", level: 85 },
+        { name: "Bash Shell Scripting", level: 90 },
+        { name: "Cron Jobs", level: 88 },
+        { name: "YUM Repository Setup", level: 85 }
       ]
     },
     {
-      title: "Monitoring & Observability",
-      icon: Monitor,
-      skills: [
-        { name: "Prometheus & Grafana", level: 88 },
-        { name: "ELK Stack", level: 82 },
-        { name: "New Relic", level: 75 },
-        { name: "Datadog", level: 70 }
-      ]
-    },
-    {
-      title: "Version Control & Collaboration",
+      title: "CI/CD & Version Control",
       icon: GitBranch,
       skills: [
+        { name: "Jenkins", level: 88 },
         { name: "Git & GitHub", level: 95 },
-        { name: "GitLab", level: 85 },
-        { name: "Jira & Confluence", level: 80 },
-        { name: "Slack Integration", level: 85 }
+        { name: "Azure DevOps", level: 80 },
+        { name: "JFrog Artifactory", level: 82 }
       ]
     },
     {
-      title: "Security & Compliance",
-      icon: Shield,
+      title: "Containerization & Orchestration",
+      icon: Container,
       skills: [
-        { name: "Security Scanning", level: 80 },
-        { name: "Compliance Automation", level: 75 },
-        { name: "Vulnerability Management", level: 78 },
-        { name: "Access Control", level: 85 }
+        { name: "Docker", level: 90 },
+        { name: "Kubernetes", level: 85 },
+        { name: "Pod Management", level: 82 },
+        { name: "Container Registry", level: 80 }
+      ]
+    },
+    {
+      title: "Monitoring & Logging",
+      icon: Monitor,
+      skills: [
+        { name: "Grafana", level: 85 },
+        { name: "Linux System Monitoring", level: 90 },
+        { name: "Log Analysis", level: 85 },
+        { name: "KPI & Alerts", level: 88 }
+      ]
+    },
+    {
+      title: "Cloud & Networking",
+      icon: Cloud,
+      skills: [
+        { name: "Microsoft Azure", level: 75 },
+        { name: "Linux Network Configuration", level: 85 },
+        { name: "Backup & Recovery", level: 88 },
+        { name: "Troubleshooting", level: 90 }
       ]
     }
   ];
@@ -137,20 +136,20 @@ const Skills = () => {
               <h3 className="text-2xl font-semibold text-foreground mb-4">Additional Expertise</h3>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-tech-blue mb-1">100+</div>
-                  <div className="text-muted-foreground">Servers Managed</div>
+                  <div className="text-2xl font-bold text-tech-blue mb-1">40%</div>
+                  <div className="text-muted-foreground">Deployment Time Reduced</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-tech-purple mb-1">50+</div>
-                  <div className="text-muted-foreground">CI/CD Pipelines</div>
+                  <div className="text-2xl font-bold text-tech-purple mb-1">30%</div>
+                  <div className="text-muted-foreground">Configuration Time Saved</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-tech-cyan mb-1">99.9%</div>
-                  <div className="text-muted-foreground">Uptime Achieved</div>
+                  <div className="text-2xl font-bold text-tech-cyan mb-1">3 Years</div>
+                  <div className="text-muted-foreground">DevOps Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-success mb-1">24/7</div>
-                  <div className="text-muted-foreground">On-call Support</div>
+                  <div className="text-2xl font-bold text-success mb-1">P1/P2</div>
+                  <div className="text-muted-foreground">Incident Resolution</div>
                 </div>
               </div>
             </CardContent>
