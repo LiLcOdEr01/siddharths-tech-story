@@ -39,10 +39,15 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* Portfolio Custom Colors */
-    --tech-blue: 217 91% 60%;
-    --tech-purple: 270 91% 65%;
-    --tech-cyan: 189 100% 60%;
+    /* DevOps Theme Colors */
+    --tech-blue: 217 91% 60%;        /* Jenkins Blue */
+    --tech-purple: 270 91% 65%;      /* Kubernetes Purple */
+    --tech-cyan: 189 100% 60%;       /* Docker Cyan */
+    --devops-orange: 25 95% 53%;     /* DevOps Orange */
+    --linux-green: 142 76% 36%;      /* Linux Green */
+    --git-red: 0 84% 60%;           /* Git Red */
+    --ansible-red: 0 100% 50%;       /* Ansible Red */
+    --aws-orange: 39 100% 50%;       /* AWS Orange */
     --success: 142 76% 36%;
     --warning: 38 92% 50%;
 

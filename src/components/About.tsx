@@ -12,7 +12,24 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 px-6">
+    <section id="about" className="py-20 px-6 relative overflow-hidden">
+      {/* Background DevOps Icons */}
+      <div className="absolute top-16 right-10 text-devops-orange/10 animate-pulse delay-100">
+        <svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm6 18l-6-6-6 6V6h12v12z"/>
+        </svg>
+      </div>
+      <div className="absolute bottom-20 left-8 text-linux-green/10 animate-pulse delay-200">
+        <svg className="w-10 h-10" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M3 3h18v18H3V3zm16 16V5H5v14h14zM6 7h1v1H6V7zm2 0h8v1H8V7zM6 9h1v1H6V9zm2 0h8v1H8V9zm-2 2h1v1H6v-1zm2 0h8v1H8v-1zm-2 2h1v1H6v-1zm2 0h4v1H8v-1z"/>
+        </svg>
+      </div>
+      <div className="absolute top-1/3 left-12 text-ansible-red/8 animate-pulse delay-300">
+        <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm6 18l-6-6-6 6V6h12v12z"/>
+        </svg>
+      </div>
+      
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-tech-blue to-tech-purple bg-clip-text text-transparent">

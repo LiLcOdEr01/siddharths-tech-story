@@ -42,7 +42,19 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-20 px-6 bg-muted/30">
+    <section id="experience" className="py-20 px-6 bg-muted/30 relative overflow-hidden">
+      {/* Background DevOps Icons */}
+      <div className="absolute top-24 right-20 text-tech-purple/8 animate-pulse delay-100">
+        <svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2l1.09 3.26L16 4.07l-1.91 2.84L17 8l-3.5 1.5L15 12l-3.5-1.5L9 12l1.5-2.5L7 8l2.91-1.09L8 4.07l2.91 1.19L12 2zm0 4c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/>
+        </svg>
+      </div>
+      <div className="absolute bottom-32 left-16 text-devops-orange/8 animate-pulse delay-200">
+        <svg className="w-10 h-10" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12.017 22.86c-6.075-.31-10.893-5.5-10.893-11.86 0-6.569 5.347-11.916 11.916-11.916 6.568 0 11.915 5.347 11.915 11.916 0 6.36-4.818 11.55-10.892 11.86zm-2.884-17.82c-1.836 1.836-2.943 4.37-2.943 7.173 0 5.598 4.539 10.137 10.137 10.137 2.803 0 5.337-1.107 7.173-2.943-1.836 1.836-4.37 2.943-7.173 2.943-5.598 0-10.137-4.539-10.137-10.137 0-2.803 1.107-5.337 2.943-7.173zm7.173 7.173c0-1.988-1.612-3.6-3.6-3.6s-3.6 1.612-3.6 3.6 1.612 3.6 3.6 3.6 3.6-1.612 3.6-3.6z"/>
+        </svg>
+      </div>
+      
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-tech-blue to-tech-purple bg-clip-text text-transparent">
